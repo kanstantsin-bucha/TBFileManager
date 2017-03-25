@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - Specta (1.0.6)
+  - TBFileManager (1.0.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - TBFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  TBFileManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  TBFileManager: 02555f9e9f1c6eb4f2ac97e55b13b69c667836c4
+
+PODFILE CHECKSUM: 8aa082f343a1a7b988eba5bfb594b12c69df5baf
+
+COCOAPODS: 1.2.0
