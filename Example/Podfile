@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TBFileManager_Example' do
+  pod 'TBFileManager', :path => '../'
+
+  target 'TBFileManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
