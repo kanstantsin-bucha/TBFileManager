@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBFileManager'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'TBFileManager extends default file manager'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   # }
 
   s.public_header_files = 'TBFileManager/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

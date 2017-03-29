@@ -1,6 +1,6 @@
 {
   "name": "TBFileManager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "TBFileManager extends default file manager",
   "description": "Include some sql database operations and directory contents handling",
   "homepage": "https://github.com/truebucha/TBFileManager",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/truebucha/TBFileManager.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "7.0"
   },
   "source_files": "TBFileManager/Classes/**/*",
-  "public_header_files": "TBFileManager/Classes/**/*.h"
+  "public_header_files": "TBFileManager/Classes/**/*.h",
+  "frameworks": "Foundation"
 }
