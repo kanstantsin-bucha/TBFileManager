@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBFileManager'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'TBFileManager extends default file manager'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/truebucha'
 
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.10'
 
   s.source_files = 'TBFileManager/Classes/**/*'
   
